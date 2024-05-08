@@ -21,6 +21,17 @@ sum = computerNumber + userNumber;
 // sommo il numero del computer èil numero dell'utente
 console.log (sum);
 
+
+function ispari(num){
+    if (num% 2 ===0 ) return true;
+
+    return false;
+}
 // creo una funzione che stabilisca se un numero e pari o e dispari
+
+
+result = ispari(sum)
+
+
 // se il risultato della funzione e pari e l'utente ha scelto pari allora a vinto l'utente
 // altrimenti a vinto il computer.
