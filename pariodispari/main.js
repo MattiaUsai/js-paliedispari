@@ -22,7 +22,7 @@ sum = computerNumber + userNumber;
 console.log (sum);
 
 
-function ispari(num){
+function isEven(num){
     if (num% 2 ===0 ) return true;
 
     return false;
@@ -30,8 +30,24 @@ function ispari(num){
 // creo una funzione che stabilisca se un numero e pari o e dispari
 
 
-result = ispari(sum)
+ function evenOrOdd(num){
+    if (isEven(num) === true ) return 'pari';
+    return 'dispari';
+ }
 
 
+
+const result = evenOrOdd(sum);
+console.log (result);
+
+
+
+
+if (result === userChoice) {
+    console.log ("ha vinto l'utente")
+} else{
+    console.log ("ha vinto il computer")
+    
+}
 // se il risultato della funzione e pari e l'utente ha scelto pari allora a vinto l'utente
 // altrimenti a vinto il computer.
